@@ -6,8 +6,7 @@
   "version": "0.0.1",
   "description": "Global Citizen Network",
   "scripts": {
-    "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/global-ctzn-network.bna",
-    "test": "nyc mocha -t 0 test/*.js && cucumber-js"
+    "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/global-ctzn-network.bna"
   },
   "keywords": [
     "composer",
